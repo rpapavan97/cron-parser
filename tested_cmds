@@ -1,0 +1,73 @@
+IN-X2C3P09V5M:cron-parser pavan.kandivalasa$ node index.js "0 0 7/3 2,4 * qwertyuiop"
+Received input: 0 0 7/3 2,4 * qwertyuiop
+minute        0
+hour          0
+dayOfMonth    7 10 13 16 19 22 25 28
+month         2 4
+dayOfWeek     0 1 2 3 4 5 6
+command       qwertyuiop
+IN-X2C3P09V5M:cron-parser pavan.kandivalasa$ node index.js "0 0 6/2 2,4 * qwertyuiop"
+Received input: 0 0 6/2 2,4 * qwertyuiop
+minute        0
+hour          0
+dayOfMonth    6 8 10 12 14 16 18 20 22 24 26 28 30
+month         2 4
+dayOfWeek     0 1 2 3 4 5 6
+command       qwertyuiop
+IN-X2C3P09V5M:cron-parser pavan.kandivalasa$ node index.js "0 0 6/2 2,5 * qwertyuiop"
+Received input: 0 0 6/2 2,5 * qwertyuiop
+minute        0
+hour          0
+dayOfMonth    6 8 10 12 14 16 18 20 22 24 26 28 30
+month         2 5
+dayOfWeek     0 1 2 3 4 5 6
+command       qwertyuiop
+IN-X2C3P09V5M:cron-parser pavan.kandivalasa$ node index.js "0 0 6/3 2,5 * qwertyuiop"
+Received input: 0 0 6/3 2,5 * qwertyuiop
+minute        0
+hour          0
+dayOfMonth    6 9 12 15 18 21 24 27 30
+month         2 5
+dayOfWeek     0 1 2 3 4 5 6
+command       qwertyuiop
+IN-X2C3P09V5M:cron-parser pavan.kandivalasa$ node index.js "0 0 7/3 2,5 * qwertyuiop"
+Received input: 0 0 7/3 2,5 * qwertyuiop
+minute        0
+hour          0
+dayOfMonth    7 10 13 16 19 22 25 28 31
+month         2 5
+dayOfWeek     0 1 2 3 4 5 6
+command       qwertyuiop
+IN-X2C3P09V5M:cron-parser pavan.kandivalasa$ node index.js "0 0 7/3 2 * qwertyuiop"
+Received input: 0 0 7/3 2 * qwertyuiop
+minute        0
+hour          0
+dayOfMonth    7 10 13 16 19 22 25 28
+month         2
+dayOfWeek     0 1 2 3 4 5 6
+command       qwertyuiop
+IN-X2C3P09V5M:cron-parser pavan.kandivalasa$ node index.js "0 0 6/3 2 * qwertyuiop"
+Received input: 0 0 6/3 2 * qwertyuiop
+minute        0
+hour          0
+dayOfMonth    6 9 12 15 18 21 24 27
+month         2
+dayOfWeek     0 1 2 3 4 5 6
+command       qwertyuiop
+IN-X2C3P09V5M:cron-parser pavan.kandivalasa$ node index.js "0 0 6/2 2 * qwertyuiop"
+Received input: 0 0 6/2 2 * qwertyuiop
+minute        0
+hour          0
+dayOfMonth    6 8 10 12 14 16 18 20 22 24 26 28
+month         2
+dayOfWeek     0 1 2 3 4 5 6
+command       qwertyuiop
+IN-X2C3P09V5M:cron-parser pavan.kandivalasa$ node index.js "0 0 7/2 2 * qwertyuiop"
+Received input: 0 0 7/2 2 * qwertyuiop
+minute        0
+hour          0
+dayOfMonth    7 9 11 13 15 17 19 21 23 25 27 29
+month         2
+dayOfWeek     0 1 2 3 4 5 6
+command       qwertyuiop
+IN-X2C3P09V5M:cron-parser pavan.kandivalasa$ 
