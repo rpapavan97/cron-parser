@@ -97,7 +97,25 @@ const parser = (input, field, maxVal = undefined) => {
   if (chars.length === 1 && chars[0] === ',') {
     return commaParser(input);
   }
-  return slashParser(input, field, maxVal);
+  if (chars.length === 1 && chars[0] === '/') {
+    return slashParser(input, field, maxVal);
+  }
+  if (chars.length === 2 && (chars.includes('/') && chars.includes('*'))) {
+    return slashParser(input, field, maxVal);
+  }
+  const splitInput = input.split(',');
+  let result = [];
+  splitInput.forEach((data) => {
+    if (data.includes('/')) {
+      result.push(slashParser(data, field, maxVal));
+    } else if (data.includes('-')) {
+      result.push(hyphenParser(data));
+    } else {
+      result.push(data);
+    }
+  });
+
+  return result.join(' ');
 }
 
 module.exports = parser;
